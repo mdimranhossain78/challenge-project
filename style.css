@@ -19,10 +19,17 @@
     font-size: 1.25rem;
    background-color: transparent;
    border-radius: 8px;
+   cursor: pointer;
 }
 .navber{
  max-width: 1140px;
  margin: 0 auto;
+}
+.text-gray{
+    color:#727272;
+}
+.text-black{
+    color: #0D1321;
 }
 
 
@@ -32,8 +39,41 @@
 .navber{
    
     justify-content: space-between;
+    padding: 30px;
 }
 .navber h3{
 font-size: 1.4rem;
 font-weight: 900;
+
 }
+/* banner reladed style */
+.banner{
+    background-image: url(./assets/Hero-bg.png);
+    width: 100%;
+    
+}
+.banner-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 55px;
+}
+.banner-section image{
+   margin-bottom: 32px;
+   max-width: 370px;
+}
+.banner-section h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.banner-section p{
+    line-height: 26px;
+}
+#btn-banner{
+    background-color: #0D1321;
+    color: aliceblue;
+}
+
+/* main section reladed style */
+
+

@@ -9,3 +9,31 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shered style */
+.disply-flex{
+    display: flex;
+}
+.btn{
+    padding: 17px 24px;
+    font-size: 1.25rem;
+   background-color: transparent;
+   border-radius: 8px;
+}
+.navber{
+ max-width: 1140px;
+ margin: 0 auto;
+}
+
+
+
+/* header reladed style */
+
+.navber{
+   
+    justify-content: space-between;
+}
+.navber h3{
+font-size: 1.4rem;
+font-weight: 900;
+}
